@@ -100,4 +100,8 @@ tank.takeDamage = function(damage)
     end
 end
 
+tank.getHealth = function()
+    return health
+end
+
 return tank
